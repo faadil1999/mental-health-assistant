@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Camera } from "lucide-react";
+import { Home } from "lucide-react";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
         <p className=" text-red-600 bg-green-400">
           Je suis la pour faire les tests
         </p>
+        <div className="flex flex-row space-x-3">
+          <Camera />
+          <Home />
+        </div>
       </header>
     </div>
   );
